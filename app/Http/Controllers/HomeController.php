@@ -32,6 +32,29 @@ class HomeController extends Controller
 
         return view('front.index');
     }
+    public function center_of_excellences(){
+
+            # code...
+            SEOMeta::setTitle('Office Fitouts In Uganda | Ribye Designers | Interior Designers in kampala');
+            SEOMeta::setDescription('interior Designer in Uganda');
+            SEOMeta::setCanonical(''.url('/').'/center-of-excellence/');
+
+            OpenGraph::setDescription('interior Designer in Uganda');
+            OpenGraph::setTitle('Office Fitouts In Uganda In Uganda | Ribye Designers | Interior Designers in kampala');
+            OpenGraph::setUrl(''.url('/').'/center-of-excellence/');
+            OpenGraph::addProperty('type', 'articles');
+
+            TwitterCard::setTitle('Office Fitouts In Uganda | Ribye Designers | Interior Designers in kampala');
+            TwitterCard::setSite('@RibyeDesigners');
+
+            JsonLd::setTitle('Office Fitouts In Uganda | Ribye Designers | Interior Designers in kampala');
+            JsonLd::setDescription('interior Designer in Uganda');
+            JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
+
+            return view('front.center_of_excellence');
+
+    }
+
     public function center_of_excellence($slung){
         $Service = DB::table('services')->where('slung',$slung)->get();
         foreach ($Service as $key => $value) {
@@ -54,6 +77,47 @@ class HomeController extends Controller
 
             return view('front.center_of_excellence' ,compact('Service'));
         }
+    }
+
+
+    public function folio(){
+
+        SEOMeta::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
+        SEOMeta::setDescription('interior Designer in Uganda');
+        SEOMeta::setCanonical(''.url('/').'/contact-us');
+
+        OpenGraph::setDescription('interior Designer in Uganda');
+        OpenGraph::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
+        OpenGraph::setUrl(''.url('/').'/contact-us');
+        OpenGraph::addProperty('type', 'articles');
+
+        TwitterCard::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
+        TwitterCard::setSite('@RibyeDesigners');
+
+        JsonLd::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
+        JsonLd::setDescription('interior Designer in Uganda');
+        JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
+        return view('front.folio');
+    }
+
+    public function portfolio(){
+
+        SEOMeta::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
+        SEOMeta::setDescription('interior Designer in Uganda');
+        SEOMeta::setCanonical(''.url('/').'/contact-us');
+
+        OpenGraph::setDescription('interior Designer in Uganda');
+        OpenGraph::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
+        OpenGraph::setUrl(''.url('/').'/contact-us');
+        OpenGraph::addProperty('type', 'articles');
+
+        TwitterCard::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
+        TwitterCard::setSite('@RibyeDesigners');
+
+        JsonLd::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
+        JsonLd::setDescription('interior Designer in Uganda');
+        JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
+        return view('front.portfolio');
     }
 
     public function contact_us(){

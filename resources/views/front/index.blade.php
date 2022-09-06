@@ -1,8 +1,8 @@
-@extends('front.master')
+@extends('front.master-home')
 
 @section('content')
 
-<div class="ttm-rev_slider-wide">
+<div class="ttm-rev_slider-wide" id="home">
     <!-- START homemainclassicslider REVOLUTION SLIDER 6.1.8 -->
     <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery">
 
@@ -32,13 +32,13 @@
                         data-frame_1="st:200;sp:500;sR:200;"
                         data-frame_999="o:0;st:w;sR:8300;"
                         style="z-index:9;font-family:Cerebri Sans;text-transform:uppercase;"
-                    >Welcome to Home Interior
+                    >Welcome to Ribye Designers
                     </rs-layer>
 
                     <a
                         id="slider-1-slide-1-layer-1"
                         class="rs-layer tm-slider-btn"
-                        href="about-us-1.html" target="_self"
+                        href="{{url('/')}}/portfolio"  target="_self"
                         data-type="text"
                         data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:243px,243px,0,0;y:m;yo:151px,151px,120px,228px;"
@@ -82,7 +82,7 @@
                     <a
                         id="slider-1-slide-1-layer-4"
                         class="rs-layer tm-slider-btn"
-                        href="about-us-1.html" target="_self"
+                        href="#about" target="_self"
                         data-type="text"
                         data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:44px,44px,0,0;y:m;yo:153px,153px,60px,73px;"
@@ -295,7 +295,7 @@
                     <a
                         id="slider-1-slide-4-layer-4"
                         class="rs-layer tm-slider-btn"
-                        href="#" target="_self"
+                        href="{{url('/')}}/portfolio" target="_self"
                         data-type="text"
                         data-rsp_ch="on"
                         data-xy="x:r,r,c,c;xo:45px,45px,0,0;y:m;yo:155px,155px,60px,73px;"
@@ -517,7 +517,7 @@
 <div class="site-main">
 
     <!--welcome-section-->
-    <section class="ttm-row welcome-section clearfix">
+    <section class="ttm-row welcome-section clearfix" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12">
@@ -576,29 +576,29 @@
                         </div>
                         <!-- ttm-progress-bar -->
                         <div class="pt-15 res-991-pt-40">
-                            <div class="ttm-progress-bar" data-percent="85%">
-                                <div class="progressbar-title">Riding Trainer</div>
+                            <div class="ttm-progress-bar" data-percent="100%">
+                                <div class="progressbar-title">Office Fitouts</div>
                                 <div class="progress-bar-inner">
                                     <div class="progress-bar progress-bar-color-bar_skincolor">
-                                        <div class="progress-bar-percent" data-percentage="85">85%</div>
+                                        <div class="progress-bar-percent" data-percentage="100">100%</div>
                                     </div>
                                 </div>
                             </div><!-- ttm-progress-bar end -->
                             <!-- ttm-progress-bar -->
-                            <div class="ttm-progress-bar" data-percent="65%">
-                                <div class="progressbar-title">Exterior Designer</div>
+                            <div class="ttm-progress-bar" data-percent="100%">
+                                <div class="progressbar-title">Interior Design</div>
                                 <div class="progress-bar-inner">
                                     <div class="progress-bar progress-bar-color-bar_skincolor">
-                                        <div class="progress-bar-percent" data-percentage="65">65%</div>
+                                        <div class="progress-bar-percent" data-percentage="100">100%</div>
                                     </div>
                                 </div>
                             </div><!-- ttm-progress-bar end -->
                             <!-- ttm-progress-bar -->
-                            <div class="ttm-progress-bar" data-percent="90%">
-                                <div class="progressbar-title">Happy Clients</div>
+                            <div class="ttm-progress-bar" data-percent="100%">
+                                <div class="progressbar-title">Construction</div>
                                 <div class="progress-bar-inner">
                                     <div class="progress-bar progress-bar-color-bar_skincolor">
-                                        <div class="progress-bar-percent" data-percentage="90">90%</div>
+                                        <div class="progress-bar-percent" data-percentage="100">100%</div>
                                     </div>
                                 </div>
                             </div><!-- ttm-progress-bar end -->
@@ -612,7 +612,7 @@
 
 
     <!--services-section end-->
-    <section class="ttm-row services-section ttm-bgcolor-darkgrey bg-img2 clearfix">
+    <section class="ttm-row services-section ttm-bgcolor-darkgrey bg-img2 clearfix" id="center-of-excellence">
         <div class="container">
             <!-- row -->
             <div class="row">
@@ -783,7 +783,7 @@
                                                         <div class="featured-desc">
                                                             <p>There are various ways to decorate home    but the walls are the heart of it. </p>
                                                         </div>
-                                                        <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="about-us-1.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                                        <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="#about">Read More<i class="fa fa-long-arrow-right"></i></a>
                                                         <i class="ttm-num ti-info"></i>
                                                     </div>
                                                 </div><!-- featured-icon-box end-->
@@ -801,7 +801,7 @@
                                                         <div class="featured-desc">
                                                             <p>As per preferences includes  selecting color schemes, artwork & accessories</p>
                                                         </div>
-                                                        <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="about-us-1.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                                        <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="#about">Read More<i class="fa fa-long-arrow-right"></i></a>
                                                         <i class="ttm-num ti-info"></i>
                                                     </div>
                                                 </div><!-- featured-icon-box end-->
@@ -819,7 +819,7 @@
                                                         <div class="featured-desc">
                                                             <p>We delivering a diverse scale of projects including restorations project</p>
                                                         </div>
-                                                        <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="about-us-1.html">Read More<i class="fa fa-long-arrow-right"></i></a>
+                                                        <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="#about">Read More<i class="fa fa-long-arrow-right"></i></a>
                                                         <i class="ttm-num ti-info"></i>
                                                     </div>
                                                 </div><!-- featured-icon-box end-->
@@ -1331,143 +1331,7 @@
     <!--broken-section end-->
 
 
-    <!--blog-section-->
-    <section id="blog" class="ttm-row bolg-section ttm-bgcolor-grey clearfix">
-            <div class="container">
-                <!--row-->
-                <div class="row">
-                    <div class="col-lg-8 col-md-10 col-sm-11 m-auto">
-                        <!--section-title-->
-                        <div class="section-title title-style-center_text">
-                            <div class="title-header">
-                                <h3>RECENT ARTICLES</h3>
-                                <h2 class="title">Read Our Latest Articles</h2>
-                            </div>
-                        </div><!--section-title end-->
-                    </div>
-                </div><!--row end-->
-                <!--row-->
-                <div class="row slick_slider mt-5 res-991-mt-0" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":992,"settings":{"slidesToShow": 2}}, {"breakpoint":750,"settings":{"slidesToShow": 1}}]}'>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!--featured-imagebox-blog-->
-                        <div class="featured-imagebox featured-imagebox-post style1">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" width="650" height="510" src="{{asset('theme/images/blog/blog-01-650x510.jpg')}}" alt="image">
-                                <div class="ttm-box-post-date">
-                                    <span class="ttm-entry-date">Mar 20 2021</span>
-                                </div>
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="blog-single.html">Things to Know When Choosing the Perfect Sofa</a>
-                                    </h3>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
-                                    <span class="ttm-meta-line"><i class="ti ti-comment ttm-textcolor-skincolor"></i>0 Comments</span>
-                                </div>
-                                <div class="ttm-postbox-desc-footer">
-                                    <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-darkgrey" href="renewable-resource.html">Read More<i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div><!--featured-imagebox-post end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!--featured-imagebox-blog-->
-                        <div class="featured-imagebox featured-imagebox-post style1">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" width="650" height="510" src="{{asset('theme/images/blog/blog-02-650x510.jpg')}}" alt="image">
-                                <div class="ttm-box-post-date">
-                                    <span class="ttm-entry-date">Mar 20 2021</span>
-                                </div>
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="blog-single.html">Colour Schemes to Introduce Spring in Your Home</a></h3>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
-                                    <span class="ttm-meta-line"><i class="ti ti-comment ttm-textcolor-skincolor"></i>0 Comments</span>
-                                </div>
-                                <div class="ttm-postbox-desc-footer">
-                                    <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-darkgrey" href="renewable-resource.html">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div><!--featured-imagebox-post end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!--featured-imagebox-blog-->
-                        <div class="featured-imagebox featured-imagebox-post style1">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" width="650" height="510" src="{{asset('theme/images/blog/blog-03-650x510.jpg')}}" alt="image">
-                                <div class="ttm-box-post-date">
-                                    <span class="ttm-entry-date">Mar 20 2021</span>
-                                </div>
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="blog-single.html">4 Ways to Create Extra Space in Small Homes</a></h3>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
-                                    <span class="ttm-meta-line"><i class="ti ti-comment ttm-textcolor-skincolor"></i>0 Comments</span>
-                                </div>
-                                <div class="ttm-postbox-desc-footer">
-                                    <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-darkgrey" href="renewable-resource.html">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div><!--featured-imagebox-post end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!--featured-imagebox-blog-->
-                        <div class="featured-imagebox featured-imagebox-post style1">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" width="650" height="510" src="{{asset('theme/images/blog/blog-04-650x510.jpg')}}" alt="image">
-                                <div class="ttm-box-post-date">
-                                    <span class="ttm-entry-date">Mar 20 2021</span>
-                                </div>
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="blog-single.html">Will My Project be Unveiled to Me?</a></h3>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
-                                    <span class="ttm-meta-line"><i class="ti ti-comment ttm-textcolor-skincolor"></i>0 Comments</span>
-                                </div>
-                                <div class="ttm-postbox-desc-footer">
-                                    <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-darkgrey" href="renewable-resource.html">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div><!--featured-imagebox-blog end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!--featured-imagebox-blog-->
-                        <div class="featured-imagebox featured-imagebox-post style1">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" width="650" height="510" src="{{asset('theme/images/blog/blog-05-650x510.jpg')}}" alt="image">
-                                <div class="ttm-box-post-date">
-                                    <span class="ttm-entry-date">Mar 20 2021</span>
-                                </div>
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="blog-single.html">What is the Process For Purchasing Furniture?</a></h3>
-                                </div>
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
-                                    <span class="ttm-meta-line"><i class="ti ti-comment ttm-textcolor-skincolor"></i>0 Comments</span>
-                                </div>
-                                <div class="ttm-postbox-desc-footer">
-                                    <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-darkgrey" href="renewable-resource.html">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div><!--featured-imagebox-blog end-->
-                    </div>
-                </div><!--row end-->
-            </div>
-    </section>
-    <!--blog-section end-->
+   @include('front.blogs')
 
 
 </div><!--site-main end-->

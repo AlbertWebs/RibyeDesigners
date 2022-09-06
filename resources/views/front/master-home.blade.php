@@ -34,7 +34,7 @@
     <!--page start-->
     <div class="page ttm-bgcolor-grey">
 
-       @include('front.header-pages')
+       @include('front.header')
 
 
         @yield('content')
