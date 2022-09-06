@@ -633,7 +633,7 @@ nav.main-menu ul.menu li.active > a, .featured-icon-box.style4:hover .ttm-num,
 .ttm-page-title-row .breadcrumb-wrapper span,
 .ttm-blog-single blockquote cite,
 .coupon_toggle .coupon_code:before, #payment .payment_box:before{
-    color: #32415C;
+    color: #ffffff;
 }
 
 /** Skin-bg-color **/
@@ -2598,8 +2598,8 @@ section.error-404 .page-content p{
 }
 .top-contact li {
     padding: 20px;
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 16px;
+    text-transform: none;
     position: relative;
     display: inline-block;
     font-family: "Cerebri Sans",Tahoma,Geneva,sans-serif;
