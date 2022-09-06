@@ -2626,3 +2626,10 @@ section.error-404 .page-content p{
 /*  Map
 /*------------------------------------------------------------------------------*/
 #map { display: block; height: 400px; width: 100%; }
+.ttm-bread-sep{
+    color:#32415C !important;
+    }
+    .breadcrumb-wrapper-inner span{
+        color:#32415C !important;
+        font-weight:900 !important;
+    }

@@ -21,12 +21,12 @@
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/slick.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/prettyPhoto.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/twentytwenty.css')}}"/>
-<link rel="stylesheet" type="text/css" href="{{asset('theme/css/shortcodes.css')}}"/>
-<link rel="stylesheet" type="text/css" href="{{asset('theme/css/main.css')}}"/>
+{{-- <link rel="stylesheet" type="text/css" href="{{asset('theme/css/shortcodes.css')}}"/> --}}
+<link rel="stylesheet" type="text/css" href="{{asset('theme/css/shortcodes-1.css')}}"/>
+<link rel="stylesheet" type="text/css" href="{{asset('theme/css/main-1.css')}}"/>
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/megamenu.css')}}"/>
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/responsive.css')}}"/>
 <link rel='stylesheet' id='rs-plugin-settings-css' href="{{asset('theme/revolution/css/rs6.css')}}">
-
 </head>
 
 <body class="ttm-one-page-site">
@@ -34,7 +34,7 @@
     <!--page start-->
     <div class="page ttm-bgcolor-grey">
 
-       @include('front.header')
+        @include('front.header')
 
 
         @yield('content')
@@ -43,6 +43,7 @@
         <!--footer start-->
         <footer class="footer ttm-bg ttm-bgcolor-darkgrey widget-footer clearfix">
             <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+            <br><br>
                 <div class="first-footer">
                     <div class="container">
                         <div class="row">

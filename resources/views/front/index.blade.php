@@ -517,7 +517,7 @@
 <div class="site-main">
 
     <!--welcome-section-->
-    <section id="about" class="ttm-row welcome-section clearfix">
+    <section class="ttm-row welcome-section clearfix">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12">
@@ -611,150 +611,129 @@
     <!--welcome-section end-->
 
 
-    <!--services-section-->
-    <section id="services" class="ttm-row services-section ttm-bgcolor-grey clearfix">
+    <!--services-section end-->
+    <section class="ttm-row services-section ttm-bgcolor-darkgrey bg-img2 clearfix">
         <div class="container">
+            <!-- row -->
             <div class="row">
-                <div class="col-lg-12">
-                    <!--section-title-->
-                    <div class="section-title style2">
-                        <div class="title-header">
-                            <h3>SERVICES WE DO</h3>
-                            <h2 class="title">Our Best Services Interior</h2>
-                        </div>
-                        <div class="title-desc"><p>We are working primarily in and around London & the Home Counties, on schemes that range from small intimate to large projects.</p>
-                        </div>
-                    </div><!--section-title end-->
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pt-10 text-left">
+                        <!-- section title -->
+                        <div class="section-title">
+                            <div class="title-header">
+                                <h3>Best Services</h3>
+                                <h2 class="title">Services We’re Providing</h2>
+                            </div>
+                            <div class="title-desc">
+                                <p>We are working primarily in and around London and the Home Counties, on schemes that range from small intimate spaces to large projects.</p>
+                            </div>
+                        </div><!-- section title end -->
+                    </div>
                 </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-lg-3">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <!-- featured-icon-box -->
-                    <div class="featured-icon-box top-icon style1">
+                    <div class="featured-icon-box icon-align-top-content style2">
                         <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                <i class="flaticon flaticon-blueprint"></i>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3><a href="services-1.html">Inter Design</a></h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>We do all types of the interior designing, decoration and furnishing.</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-icon-box end-->
-                </div>
-                <div class="col-lg-3">
-                    <!-- featured-icon-box -->
-                    <div class="featured-icon-box top-icon style1">
-                        <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                <i class="flaticon flaticon-staircase"></i>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3><a href="services-1.html">Art Design</a></h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>We develop a full cycle of project documentation outline sketchg.</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-icon-box end-->
-                </div>
-                <div class="col-lg-3">
-                    <!-- featured-icon-box -->
-                    <div class="featured-icon-box top-icon style1">
-                        <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                <i class="flaticon flaticon-door-1"></i>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3><a href="services-1.html">Interior Work</a></h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>We are master of renovation & innovation of existing any kind of rooms</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-icon-box end-->
-                </div>
-                <div class="col-lg-3">
-                    <!-- featured-icon-box -->
-                    <div class="featured-icon-box top-icon style1">
-                        <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
                                 <i class="flaticon flaticon-apartment"></i>
                             </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="services-1.html">Retail Designs</a></h3>
+                                <h3>Residential Interior</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>Our creative 3D artists are always ready to translate your designs</p>
+                                <p>We do all types of the interior designing,  decoration & furnishing.</p>
+                            </div>
+                            <div class="ttm-footer">
+                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="architecture.html">Read More</a>
                             </div>
                         </div>
-                    </div><!-- featured-icon-box end-->
+                    </div><!-- featured-imagebox-portfolio end-->
                 </div>
-            </div><!-- row end -->
-            <div class="row no-gutters">
-                <div class="col-lg-3">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <!-- featured-icon-box -->
-                    <div class="featured-icon-box top-icon style1">
+                    <div class="featured-icon-box icon-align-top-content style2">
                         <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                <i class="flaticon flaticon-windows"></i>
+                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
+                                <i class="flaticon flaticon-interior-design-1"></i>
                             </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="services-1.html">2D/3D Layouts</a></h3>
+                                <h3>Custom Solutionse</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>We do all types Of 2D And 3D design computerized designs work.</p>
+                                <p>Our creative 3D artists are always ready to translate your designs</p>
+                            </div>
+                            <div class="ttm-footer">
+                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="retail-designs.html">Read More</a>
                             </div>
                         </div>
-                    </div><!-- featured-icon-box end-->
+                    </div><!-- featured-imagebox-portfolio end-->
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <!-- featured-icon-box -->
-                    <div class="featured-icon-box top-icon style1">
+                    <div class="featured-icon-box icon-align-top-content style2">
                         <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
+                                <i class="flaticon flaticon-bed-1"></i>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3>Renovate Rooms</h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>We are master of renovation & innovation of existing any kind of rooms</p>
+                            </div>
+                            <div class="ttm-footer">
+                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="layout.html">Read More</a>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox-portfolio end-->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <!-- featured-icon-box -->
+                    <div class="featured-icon-box icon-align-top-content style2">
+                        <div class="featured-icon">
+                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
                                 <i class="flaticon flaticon-decorating"></i>
                             </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="services-1.html">Architecture</a></h3>
+                                <h3>3D Design Layouts</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>Iterative approaches to the corporate strategy foster collaborative designs.</p>
+                                <p>We Do All Types Of 2D And 3D design  Computerized Designs.</p>
+                            </div>
+                            <div class="ttm-footer">
+                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="layout.html">Read More</a>
                             </div>
                         </div>
-                    </div><!-- featured-icon-box end-->
+                    </div><!-- featured-imagebox-portfolio end-->
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <!-- featured-icon-box -->
-                    <div class="featured-icon-box top-icon style1">
+                    <div class="featured-icon-box icon-align-top-content style2">
                         <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                <i class="flaticon flaticon-workspace"></i>
+                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
+                                <i class="flaticon flaticon-door"></i>
                             </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="services-1.html">Decoration art</a></h3>
+                                <h3>Outsourced Service InHouse</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>We will take care of the interior designs, build and management of projects</p>
+                                <p>Enforces & strengthens your brand identity by integrating rich experience</p>
+                            </div>
+                            <div class="ttm-footer">
+                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="decoration-art.html">Read More</a>
                             </div>
                         </div>
-                    </div><!-- featured-icon-box end-->
+                    </div><!-- featured-imagebox-portfolio end-->
                 </div>
             </div><!-- row end -->
         </div>
@@ -762,34 +741,10 @@
     <!--services-section end-->
 
 
-    <!--broken-section-->
-    <section class="ttm-row broken-section clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="pt-55 res-991-pt-50 res-991-pb-30">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-2 col-sm-12">
-                                <img class="img-fluid" src="{{asset('theme/images/star1.png')}}" alt="images" width="98" height="14">
-                            </div>
-                            <div class="col-lg-9 col-md-10 col-sm-12">
-                                <p class="ml_20 res-767-ml-0 res-767-pt-10 mb-0"><span class="ttm-underline-strong"><strong>99.9% Customer satisfaction&nbsp;</strong></span> based on 750+ reviews and 20,000 Objective Resource</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="col-bg-img-one ttm-bg ttm-col-bgimage-yes spacing-1">
-                        <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
-                        <div class="layer-content">
-                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-fill ttm-icon-btn-right ttm-btn-color-skincolor w-100 text-center" href="#" tabindex="0">OUR FEATURED SERVICES INTERIOR DESIGN</a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- row end -->
-        </div>
-    </section>
-    <!--broken-section end-->
+
+
+
+
 
     <!--bottom_zero_padding-section-->
     <section class="ttm-row bottom_zero_padding-section clearfix">
