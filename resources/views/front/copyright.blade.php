@@ -37,16 +37,21 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-10 col-md-12">
+                <div class="col-lg-12 col-md-12">
                     <div class="pl-30 res-991-pl-0 res-991-mt-40">
                         <!-- section title -->
 
                         <div class="pb-10 res-991-pb-30">
-                            <p>We have a proven track record of finding exactly the right designers for  our clients & offer unparalleled access to some of the interior designers  in today’s time constitutionally!</p>
+                            <p style="color:#000000 !important; font-size:16px;">
+                                This website and its content is copyright of Ribye Designers LTD - © Ribye Designers LTD  {{date('Y')}}. All rights reserved. Any redistribution or reproduction of part or all of the contents in any form is partially prohibited other than the following:
+                                you may print or download to a local hard disk extracts for your personal and non-commercial use only
+                                you may copy the content to individual third parties for their personal use, but only if you acknowledge the website as the source of the material
+                                You may not, except with our express written permission, distribute or commercially exploit the content. Nor may you transmit it or store it in any other website or other form of electronic retrieval system.
+                            </p>
                         </div>
 
                         <div class="d-sm-flex align-items-center mt-60 res-767-mt-0">
-                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-darkgrey mr-30 res-767-mt-20" href="about-us.html" tabindex="0">What We Do</a>
+                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-darkgrey mr-30 res-767-mt-20" href="{{url('/')}}/center-of-excellence" tabindex="0">What We Do</a>
                         </div>
                     </div>
                 </div>

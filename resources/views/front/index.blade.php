@@ -532,7 +532,7 @@
                         <div class="section-title">
                             <div class="title-heade">
                                 <h3>About Ribye Designers</h3>
-                                <h2 class="title">We Create The Art Of Stylish  Living Stylishly</h2>
+                                <h2 class="title">Inspired Creative and Functional Interiors</h2>
                             </div>
                         </div><!-- section title end -->
                         <p>Ribye Designers design consultancy firm that brings sensitivity to the design top restaurants, hotels, offices & homes around the world. We stand for quality, safety and credibility, so you could be sure about our work. </p>

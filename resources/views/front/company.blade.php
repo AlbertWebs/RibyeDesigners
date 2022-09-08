@@ -47,7 +47,7 @@
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-heade">
-                                <h2 class="title">Partner In Inspiring And Better Living Areas</h2>
+                                <h2 class="title">Inspired Creative Functional</h2>
                             </div>
                         </div><!-- section title end -->
                         <div class="pb-10 res-991-pb-30">
