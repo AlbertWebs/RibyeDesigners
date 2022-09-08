@@ -176,8 +176,8 @@ class HomeController extends Controller
         JsonLd::setTitle('Terms and Conditions | Ribye Designers');
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-        $Terms = DB::table('terms')->get();
-        return view('front.terms-and-conditions', compact('Terms'));
+        // $Terms = DB::table('terms')->get();
+        return view('front.terms-and-conditions');
     }
 
     public function copyright(){
@@ -215,8 +215,8 @@ class HomeController extends Controller
         JsonLd::setTitle('Privacy Policy | Ribye Designers');
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-        $Terms = DB::table('privacy')->get();
-        return view('front.privacy-policy', compact('Terms'));
+        // $Terms = DB::table('privacy')->get();
+        return view('front.privacy-policy');
     }
 
     public function blogs($slung){

@@ -1230,7 +1230,7 @@
                             <div class="col-bg-img-four ttm-bg ttm-col-bgimage-yes text-center border spacing-6">
                                 <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
                                 <h2 class="font-size-34 mb-10">Emergency Interiors Services</h2>
-                                <p>Please do not hesitate to send us a message. We are looking forward to hearing from you.</p>
+                                <p>Do not hesitate to send us a message. We are looking forward to hearing from you.</p>
                                 <div class="d-flex flex-row align-items-center justify-content-center mb-10 mt-10">
                                     <div class="widget_icon">
                                         <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md mb-0 pt-5">
@@ -1238,7 +1238,7 @@
                                         </div>
                                     </div>
                                     <div class="widget_content">
-                                        <h3 class="widget_number mb-0">Waiting Call Us +123 456 7890</h3>
+                                        <h3 class="widget_number mb-0"> +255 72 456 7890</h3>
                                     </div>
                                 </div>
                                 <ul class="social-icons square">
@@ -1256,6 +1256,14 @@
                                     </li>
                                     <li>
                                         <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Pinterest"><i class="fa fa-pinterest"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Instagram"><i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Youtube"><i class="fa fa-youtube"></i>
                                         </a>
                                     </li>
                                 </ul>

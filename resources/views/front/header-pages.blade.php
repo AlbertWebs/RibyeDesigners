@@ -25,12 +25,12 @@
                                     <nav class="main-menu menu-mobile" id="menu">
                                         <ul class="menu">
                                             <li class="active"><a data-scroll href="{{url('/')}}#home">Home</a></li>
-                                            <li><a data-scroll href="{{url('/')}}#about">About Us</a></li>
-                                            <li><a data-scroll href="{{url('/')}}#center-of-excellence">Center of Excellence</a></li>
+                                            <li><a data-scroll href="{{url('/')}}/about-us">About Us</a></li>
+                                            <li><a data-scroll href="{{url('/')}}/center-of-excellence">Center of Excellence</a></li>
 
-                                            <li><a data-scroll href="{{url('/')}}#portfolio">Portfolio</a></li>
+                                            <li><a data-scroll href="{{url('/')}}/portfolio">Portfolio</a></li>
                                             <li><a data-scroll href="{{url('/')}}#blog">Blog</a></li>
-                                            <li><a data-scroll href="{{url('/')}}#contact-us">Contact Us</a></li>
+                                            <li><a data-scroll href="{{url('/')}}/contact-us">Contact Us</a></li>
                                         </ul>
                                     </nav><!-- menu end -->
                                     <div class="ttm-widget_header d-flex flex-row justify-content-between">
