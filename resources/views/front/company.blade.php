@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="d-sm-flex align-items-center mt-60 res-767-mt-0">
-                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-darkgrey mr-30 res-767-mt-20" href="about-us.html" tabindex="0">What We Do</a>
+                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-darkgrey mr-30 res-767-mt-20" href="{{url('/')}}/about-us" tabindex="0">What We Do</a>
                             <div class="res-767-mt-20">
                                 <img width="186" height="53" class="img-fluid" src="{{asset('theme/images/author-sign.png')}}" alt="sign">
                             </div>

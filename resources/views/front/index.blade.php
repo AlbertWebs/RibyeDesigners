@@ -523,7 +523,8 @@
                 <div class="col-xl-6 col-lg-6 col-md-12">
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper res-991-mb-40">
-                        <img width="554" height="603" class="img-fluid" src="{{asset('theme/images/single-img-01.jpg')}}" alt="single_01">
+                        {{-- <img width="554" height="603" class="img-fluid" src="{{asset('theme/images/single-img-01.jpg')}}" alt="single_01"> --}}
+                        <img width="554" height="603" class="img-fluid" src="{{url('/')}}/uploads/banners/Partition.jpg" alt="Ribye Designers">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12">
@@ -531,20 +532,20 @@
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-heade">
-                                <h3>About Ribye Designers</h3>
+                                <h3 style="color:#32415C">About Ribye Designers</h3>
                                 <h2 class="title">Inspired Creative and Functional Interiors</h2>
                             </div>
                         </div><!-- section title end -->
-                        <p>Ribye Designers design consultancy firm that brings sensitivity to the design top restaurants, hotels, offices & homes around the world. We stand for quality, safety and credibility, so you could be sure about our work. </p>
+                        <p style="color:#32415C;">
+                            Formed in 2020 , Ribye Designers LTD incorporates conceptual thinking, spatial and interior design and graphic design to ensure consistent and coherent branded environments for its clients.
+                            <br><br>
+                            These multi-disciplines manifest themselves through their work for restaurant and entertainment design; retail and corporate office design; and single and multi-family residential projects.
+                        </p>
                         <div class="pt-0 res-991-pt-0 pb-30 res-991-pb-0">
-                            <div class="row">
-                                <div class="col-lg-6">
+                            {{-- <div class="row">
+                                <div class="col-lg-6" style="border: 3px solid #32415C; border-radius:10px">
                                     <div class="featured-icon-box icon-align-before-content icon-ver_align-top">
-                                        <div class="featured-icon">
-                                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                                <i class="flaticon flaticon-stairs"></i>
-                                            </div>
-                                        </div>
+
                                         <div class="featured-content">
                                             <div class="featured-title">
                                                 <h3>Residential Interior</h3>
@@ -555,13 +556,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 pr-0">
+                                <div class="col-lg-6 pr-0" style="border: 3px solid #32415C; border-radius:10px">
                                     <div class="featured-icon-box icon-align-before-content icon-ver_align-top">
-                                        <div class="featured-icon">
-                                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                                <i class="flaticon flaticon-decorating"></i>
-                                            </div>
-                                        </div>
+
                                         <div class="featured-content">
                                             <div class="featured-title">
                                                 <h3>Modern Living Intrior</h3>
@@ -572,7 +569,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <!-- ttm-progress-bar -->
                         <div class="pt-15 res-991-pt-40">
@@ -603,6 +600,14 @@
                                 </div>
                             </div><!-- ttm-progress-bar end -->
                         </div>
+
+                        <div class="d-sm-flex align-items-center mt-60 res-767-mt-0">
+                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-darkgrey mr-30 res-767-mt-20" href="{{url('/')}}/about-us" tabindex="0">Lear More</a>
+                            <div class="res-767-mt-20">
+                                <img width="186" height="53" class="img-fluid" src="{{asset('theme/images/author-sign.png')}}" alt="sign">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -676,8 +681,8 @@
                     <!--section-title-->
                     <div class="section-title title-style-center_text">
                         <div class="title-header">
-                            <h3>Working Style</h3>
-                            <h2 class="title">Our Innovative Ideas, The Most Stylish Working Style</h2>
+                            <h3 style="color: #32415C">Working Style</h3>
+                            <h2 class="title">Our Innovative Approaches, Defines Our Strength</h2>
                         </div>
                     </div><!--section-title end-->
                 </div>
@@ -695,14 +700,16 @@
                                                 <!-- featured-icon-box -->
                                                 <div class="featured-imagebox featured-imagebox-services style1">
                                                     <div class="featured-thumbnail">
-                                                        <img src="{{asset('theme/images/services/service-01-260x260.png')}}" class="img-fluid" alt="services-1">
+                                                        <img src="{{url('/')}}/uploads/banners/pexels-pixabay-45842.jpg" class="img-fluid" alt="services-1">
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h3>Innovative Wall Decorotion & Designs</h3>
+                                                            <h3>Our people make us unique</h3>
                                                         </div>
                                                         <div class="featured-desc">
-                                                            <p>There are various ways to decorate home    but the walls are the heart of it. </p>
+                                                            {{-- <p>Our people are the core of our business and the force behind our success.</p> --}}
+                                                            {{-- <p>We have an open and inclusive culture which sets us apart.</p> --}}
+                                                            <p>From trusted expertise to emerging talent, Ribye Team have the drive to succeed and a genuine approach that delivers exceptional results for our clients and the communities we serve.</p>
                                                         </div>
                                                         <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="#about">Read More<i class="fa fa-long-arrow-right"></i></a>
                                                         <i class="ttm-num ti-info"></i>
@@ -717,10 +724,11 @@
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h3>Quality In Interior Decoration</h3>
+                                                            <h3>We have ambition built on deep expertise</h3>
                                                         </div>
                                                         <div class="featured-desc">
-                                                            <p>As per preferences includes  selecting color schemes, artwork & accessories</p>
+                                                            <p>We are ambitious to be the best we can be, individually and collectively.</p>
+                                                            <p>Our plans for growth are built on a foundation of collective expertise that few can match.</p>
                                                         </div>
                                                         <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="#about">Read More<i class="fa fa-long-arrow-right"></i></a>
                                                         <i class="ttm-num ti-info"></i>
@@ -735,10 +743,11 @@
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
-                                                            <h3>A High Interior  Architecture</h3>
+                                                            <h3>Relationships define our success</h3>
                                                         </div>
                                                         <div class="featured-desc">
-                                                            <p>We delivering a diverse scale of projects including restorations project</p>
+                                                            <p>We are a business that builds strong relationships forged on trust and reliability.</p>
+                                                            <p>We make ourselves easy to do business with and follow through on our promises.</p>
                                                         </div>
                                                         <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="#about">Read More<i class="fa fa-long-arrow-right"></i></a>
                                                         <i class="ttm-num ti-info"></i>
@@ -768,7 +777,7 @@
                         <div class="section-title">
                             <div class="title-header">
                                 <h3>TESTIMONIALS</h3>
-                                <h2 class="title">What They’re Talking About  Company Work</h2>
+                                <h2 class="title">What Ribye Designers Clients are saying</h2>
                             </div>
                         </div><!-- section title end -->
                         <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-white mt-20 res-991-mt-0" href="#" tabindex="0">VIEW MORE<i class="fa fa-long-arrow-right"></i></a>
@@ -783,14 +792,14 @@
                                 <div class="testimonials style1">
                                     <div class="testimonial-avatar">
                                         <div class="testimonial-img">
-                                            <img width="150" height="150" class="img-center" src="{{asset('theme/images/testimonial/01.jpg')}}" alt="testimonial-img">
+                                            <img width="150" height="150" class="img-center" src="{{url('/')}}/uploads/testimonials/pexels-lucas-da-miranda-1967902.jpg" alt="testimonial-img">
                                         </div>
                                     </div>
                                     <div class="testimonial-content">
                                         <i class="ti-quote-left"></i>
                                         <blockquote>“ I couldn't believe my eyes when I saw the final layout of the room! they understood perfectly what I wanted in my room and brought my vision.”</blockquote>
                                         <div class="testimonial-caption">
-                                            <h3>Sofia Dylan</h3>
+                                            <h3>Sofia Kanyamozi</h3>
                                             <label>Co-manager associated</label>
                                         </div>
                                     </div>
@@ -801,51 +810,15 @@
                                 <div class="testimonials style1">
                                     <div class="testimonial-avatar">
                                         <div class="testimonial-img">
-                                            <img width="150" height="150" class="img-center" src="{{asset('theme/images/testimonial/02.jpg')}}" alt="testimonial-img">
+                                            <img width="150" height="150" class="img-center" src="{{url('/')}}/uploads/testimonials/pexels-christina-morillo-1181391.jpg" alt="testimonial-img">
                                         </div>
                                     </div>
                                     <div class="testimonial-content">
                                         <i class="ti-quote-left"></i>
                                         <blockquote>I love everything that put together for my living room! I just bought this house and only had a few items I wanted to keep. I’am able to help me visualize the room”</blockquote>
                                         <div class="testimonial-caption">
-                                            <h3>Natalie Kameron</h3>
-                                            <label>Ceo /Manger</label>
-                                        </div>
-                                    </div>
-                                </div><!--testimonials end-->
-                            </div>
-                            <div class="col-lg-6">
-                                <!--testimonials-->
-                                <div class="testimonials style1">
-                                    <div class="testimonial-avatar">
-                                        <div class="testimonial-img">
-                                            <img width="150" height="150" class="img-center" src="{{asset('theme/images/testimonial/03.jpg')}}" alt="testimonial-img">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <i class="ti-quote-left"></i>
-                                        <blockquote>“I hired Ribye Designers for my living room, and did such an amazing job, I then hired for my entry. It is going to be beautiful and amazing..! ”</blockquote>
-                                        <div class="testimonial-caption">
-                                            <h3>Joel Elliott</h3>
-                                            <label>Co-manager associated</label>
-                                        </div>
-                                    </div>
-                                </div><!--testimonials end-->
-                            </div>
-                            <div class="col-lg-6">
-                                <!--testimonials-->
-                                <div class="testimonials style1">
-                                    <div class="testimonial-avatar">
-                                        <div class="testimonial-img">
-                                            <img width="150" height="150" class="img-center" src="{{asset('theme/images/testimonial/04.jpg')}}" alt="testimonial-img">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <i class="ti-quote-left"></i>
-                                        <blockquote>“ I couldn't believe my eyes when I saw the final layout of the room! they understood perfectly what I wanted in my room and brought my vision.”</blockquote>
-                                        <div class="testimonial-caption">
-                                            <h3>Sofia Dylan</h3>
-                                            <label>Co-manager associated</label>
+                                            <h3>Robert Besighe</h3>
+                                            <label>Manger</label>
                                         </div>
                                     </div>
                                 </div><!--testimonials end-->
@@ -881,7 +854,7 @@
                                                 <h3>We Are Professional</h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>We develop a full cycle of conry to Loream project documentation</p>
+                                                <p>We strive to maintain Proffessionalism throughout a clients project</p>
                                             </div>
                                         </div>
                                     </div>
@@ -893,10 +866,10 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3>Honest And Dependable</h3>
+                                                <h3>Honesty</h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>Our experience and commitment to our customers assure will meet your objectives.</p>
+                                                <p>Our experience and commitment to our clients  assure will meet your objectives.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -908,10 +881,10 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3>Energy Saving Methods</h3>
+                                                <h3>Promise to Customers</h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>Part of experts team to manage commercial and institutional projects.</p>
+                                                <p> Creating a great customer experience begins with staying true to the words we speak and the bonds we make</p>
                                             </div>
                                         </div>
                                     </div>
@@ -925,11 +898,12 @@
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-header">
-                                <h3>WHY Ribye Designers</h3>
-                                <h2 class="title">Interior Designs From The Future Living Style's</h2>
+                                <h3 style="color:#32415C">WHY Ribye Designers</h3>
+                                <h2 class="title">We Strive To Make a Difference</h2>
                             </div>
-                            <div class="title-desc">
-                                <p>There are certain attributes of a profession and one has to catch hold of them in order to work efficiently and grow in that business. I share my experience as an interior designer, a profession of great esthetic value and charm.</p>
+                            <div class="title-desc" style="color:#32415C">
+                                <p>Ribye is here to stay and so are our projects.</p>
+        <p>Our impact is measured not just in the quality of the project delivered but in the longer-term impact on the environment, communities and people.<br /><br />Our work connects communities, builds a better future and transforms and maintains the places where we live, work and relax.</p>
                             </div>
                         </div><!-- section title end -->
                         <!-- ttm_single_image-wrapper -->
@@ -953,8 +927,8 @@
                     <!--section-title-->
                     <div class="section-title title-style-center_text">
                         <div class="title-header">
-                            <h3>Our Best Projects</h3>
-                            <h2 class="title">Let's Have A Look At What Creativity Best Projects</h2>
+                            <h3 style="color:#32415C">Our Projects</h3>
+                            <h2 class="title" style="max-width:400px; margin:0 auto;">Let's Have A Look At Our Past Projects</h2>
                         </div>
                     </div><!--section-title end-->
                 </div>
