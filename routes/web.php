@@ -23,4 +23,4 @@ Route::get('/portfolio/{single}', [App\Http\Controllers\HomeController::class, '
 Route::get('/copyright', [App\Http\Controllers\HomeController::class, 'copyright'])->name('copyright');
 Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'terms_and_conditions'])->name('terms-and-conditions');
 Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'privacy_policy'])->name('privacy-policy');
-Route::get('/blogs/{slung}', [App\Http\Controllers\HomeController::class, 'blogs'])->name('blogs');
+Route::get('/blog/{slung}', [App\Http\Controllers\HomeController::class, 'blogs'])->name('blogs');

@@ -622,119 +622,40 @@
                         <div class="section-title">
                             <div class="title-header">
                                 <h3>Best Services</h3>
-                                <h2 class="title">Services We’re Providing</h2>
+                                <h2 class="title">Our Center of Excellence</h2>
                             </div>
                             <div class="title-desc">
-                                <p>We are working primarily in and around London and the Home Counties, on schemes that range from small intimate spaces to large projects.</p>
+                                <p>
+                                    From professional office spaces to large retail locations (and everything in between), Ribye Designers LTD is ready to revitalize your company's workspace from concept to completion
+                                </p>
                             </div>
                         </div><!-- section title end -->
                     </div>
                 </div>
+                <?php $Services = DB::table('services')->where('home','1')->get(); ?>
+                @foreach ($Services as $item)
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <!-- featured-icon-box -->
                     <div class="featured-icon-box icon-align-top-content style2">
                         <div class="featured-icon">
                             <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                <i class="flaticon flaticon-apartment"></i>
+                                <i class="{{$item->icon}}"></i>
                             </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3>Residential Interior</h3>
+                                <h3>{{$item->title}}</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>We do all types of the interior designing,  decoration & furnishing.</p>
+                                <p style="min-height:100px;">{{$item->meta}} </p>
                             </div>
                             <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="architecture.html">Read More</a>
+                                <a target="new" class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="{{url('/')}}/center-of-excellence/{{$item->slung}}">Read More</a>
                             </div>
                         </div>
                     </div><!-- featured-imagebox-portfolio end-->
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <!-- featured-icon-box -->
-                    <div class="featured-icon-box icon-align-top-content style2">
-                        <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                <i class="flaticon flaticon-interior-design-1"></i>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Custom Solutionse</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>Our creative 3D artists are always ready to translate your designs</p>
-                            </div>
-                            <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="retail-designs.html">Read More</a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-portfolio end-->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <!-- featured-icon-box -->
-                    <div class="featured-icon-box icon-align-top-content style2">
-                        <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                <i class="flaticon flaticon-bed-1"></i>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Renovate Rooms</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>We are master of renovation & innovation of existing any kind of rooms</p>
-                            </div>
-                            <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="layout.html">Read More</a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-portfolio end-->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <!-- featured-icon-box -->
-                    <div class="featured-icon-box icon-align-top-content style2">
-                        <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                <i class="flaticon flaticon-decorating"></i>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>3D Design Layouts</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>We Do All Types Of 2D And 3D design  Computerized Designs.</p>
-                            </div>
-                            <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="layout.html">Read More</a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-portfolio end-->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <!-- featured-icon-box -->
-                    <div class="featured-icon-box icon-align-top-content style2">
-                        <div class="featured-icon">
-                            <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                <i class="flaticon flaticon-door"></i>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Outsourced Service InHouse</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>Enforces & strengthens your brand identity by integrating rich experience</p>
-                            </div>
-                            <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-white" href="decoration-art.html">Read More</a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-portfolio end-->
-                </div>
+                @endforeach
             </div><!-- row end -->
         </div>
     </section>

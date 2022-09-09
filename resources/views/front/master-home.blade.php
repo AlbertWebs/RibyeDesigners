@@ -4,12 +4,20 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="interior service , Architecture & Interior Designer" />
-<meta name="keywords" content="interior service , Architecture & Interior Designer">
-<meta name="author" content="https://www.designekta.com/" />
 <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=2" />
 
-<title>Ribye - Architecture Html for Interior Designer</title>
+{{--  --}}
+<title>{{$title}} | Interior Designer | Office Fitouts in Kampala</title>
+<meta name="description" content="Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring">
+<meta name="author" content="https://www.designekta.com/" />
+<link rel="canonical" href="{{url('/')}}"/>
+<meta property="og:title" content="{{$title}} | Interior Designer | Office Fitouts in Kampala" />
+<meta property="og:type" content="articles" />
+<meta property="og:url" content="{{url('/')}}" />
+<meta property="og:image" content="{{url('/')}}/uploads/logo/skylineLogo.png" />
+<meta name="twitter:title" content="{{$title}} | Interior Designer | Office Fitouts in Kampala" />
+<meta name="twitter:site" content="@ribyedesigners" />
+{{--  --}}
 
 @include('favicon')
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/bootstrap.min.css')}}"/>

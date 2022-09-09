@@ -29,8 +29,9 @@ class HomeController extends Controller
         JsonLd::setTitle('Office Fitouts in Uganda | Interior Designer in Kampala | Ribye Designers ');
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
+        $title= "Ribye Designers LTD";
 
-        return view('front.index');
+        return view('front.index', compact('title'));
     }
     public function center_of_excellences(){
 
@@ -50,8 +51,8 @@ class HomeController extends Controller
             JsonLd::setTitle('Office Fitouts In Uganda | Ribye Designers | Interior Designers in kampala');
             JsonLd::setDescription('interior Designer in Uganda');
             JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-
-            return view('front.center_of_excellence');
+            $title= "About Us";
+            return view('front.center_of_excellence', compact('title'));
 
     }
 
@@ -74,8 +75,8 @@ class HomeController extends Controller
             JsonLd::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
             JsonLd::setDescription('interior Designer in Uganda');
             JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-
-            return view('front.center_of_excellence' ,compact('Service'));
+            $title= $value->title;
+            return view('front.center_of_excellence' ,compact('Service','title'));
         }
     }
 
@@ -97,7 +98,8 @@ class HomeController extends Controller
         JsonLd::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-        return view('front.folio');
+        $title= "Our Portfolio";
+        return view('front.folio', compact('title'));
     }
 
     public function portfolio(){
@@ -117,7 +119,8 @@ class HomeController extends Controller
         JsonLd::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-        return view('front.portfolio');
+        $title= "Our Portfolio";
+        return view('front.portfolio', compact('title'));
     }
 
     public function contact_us(){
@@ -137,8 +140,10 @@ class HomeController extends Controller
         JsonLd::setTitle('Contact Us | Ribye Designers | Interior Designers in kampala');
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-        return view('front.contact_us');
+        $title= "Contact Us";
+        return view('front.contact_us', compact('title'));
     }
+
     public function company(){
         SEOMeta::setTitle('The Company | Ribye Designers | Interior Designers in kampala');
         SEOMeta::setDescription('interior Designer in Uganda');
@@ -155,7 +160,9 @@ class HomeController extends Controller
         JsonLd::setTitle('The Company | Ribye Designers | Interior Designers in kampala');
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-        return view('front.company');
+        $title= "About Us";
+
+        return view('front.company', compact('title'));
     }
 
 
@@ -177,7 +184,8 @@ class HomeController extends Controller
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
         // $Terms = DB::table('terms')->get();
-        return view('front.terms-and-conditions');
+        $title= "Terms and Conditions";
+        return view('front.terms-and-conditions', compact('title'));
     }
 
     public function copyright(){
@@ -196,7 +204,8 @@ class HomeController extends Controller
         JsonLd::setTitle('Copyright | Ribye Designers');
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-        return view('front.copyright');
+        $title= "Copyright Statement";
+        return view('front.copyright', compact('title'));
     }
 
     public function privacy_policy(){
@@ -216,7 +225,8 @@ class HomeController extends Controller
         JsonLd::setDescription('interior Designer in Uganda');
         JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
         // $Terms = DB::table('privacy')->get();
-        return view('front.privacy-policy');
+        $title= "Privacy Policy";
+        return view('front.privacy-policy', compact('title'));
     }
 
     public function blogs($slung){
@@ -238,8 +248,8 @@ class HomeController extends Controller
             JsonLd::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
             JsonLd::setDescription('interior Designer in Uganda');
             JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
-
-            return view('front.blog' ,compact('Blog'));
+            $title = $value->title;
+            return view('front.blog' ,compact('title','Blog'));
         }
     }
 
@@ -254,22 +264,8 @@ class HomeController extends Controller
 
     }
 
-    public function hire(Request $request){
-        if($request->verify_contact == $request->verify_contact_input){
-            $name = $request->name;
-            $email = $request->email;
-            $date = $request->date;
-            $phone = $request->phone;
-            $number = $request->number;
-            $message = $request->message;
 
-            $Joiner = "Hello Admin, User with name $name, and email $email, Phone Number $phone, Has Requested $number Laptops with the specs $message";
-            ReplyMessage::laptopHire($name,$email,$Joiner);
-            return response()->json(['success' => true]);
-        }else{
-            return response()->json(['success' => true]);
-        }
-    }
+
 
 
     public function message(Request $request){

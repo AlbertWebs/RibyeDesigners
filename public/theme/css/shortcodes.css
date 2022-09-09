@@ -732,7 +732,7 @@ i.fa-play{ padding-left: 5px; }
     font-size: 40px;
     line-height: 50px;
     margin-right: 10px;
-    color: #cda274;
+    color: #32415C;
     display: inline;
     float: left;
     position: relative;
@@ -2397,7 +2397,7 @@ div:hover > .ttm-box-view-overlay:before, div:hover > .ttm-box-view-content-inne
     -ms-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
-    background-color: #cda274;
+    background-color: #32415C;
 }
 .sidebar .widget:hover .widget-title:after{
     width: 100%;
@@ -2633,7 +2633,7 @@ div:hover > .ttm-box-view-overlay:before, div:hover > .ttm-box-view-content-inne
     line-height: 50px;
     text-align: center;
     padding: 0;
-    background-color: #cda274;
+    background-color: #32415C;
     display: table-cell;
     vertical-align: top;
 }
@@ -2661,8 +2661,8 @@ div:hover > .ttm-box-view-overlay:before, div:hover > .ttm-box-view-content-inne
 }
 .sidebar .widget-area.widget_border .widget.widget-follow-us ul >li a:hover{
     background-color: transparent;
-    color: #cda274;
-    border-color: #cda274;
+    color: #32415C;
+    border-color: #32415C;
 }
 
 /* pagination */

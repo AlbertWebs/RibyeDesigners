@@ -26,7 +26,7 @@
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="blog-single.html">Things to Know When Choosing the Perfect Sofa</a>
+                                <h3><a href="{{url('/')}}/blog/things-to-know-when-choosing-the-perfect-sofa">Things to Know When Choosing the Perfect Sofa</a>
                                 </h3>
                             </div>
                             <div class="post-meta">
@@ -50,7 +50,7 @@
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="blog-single.html">Colour Schemes to Introduce Spring in Your Home</a></h3>
+                                <h3><a href="{{url('/')}}/blog/things-to-know-when-choosing-the-perfect-sofa">Colour Schemes to Introduce Spring in Your Home</a></h3>
                             </div>
                             <div class="post-meta">
                                 <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="blog-single.html">4 Ways to Create Extra Space in Small Homes</a></h3>
+                                <h3><a href="{{url('/')}}/blog/things-to-know-when-choosing-the-perfect-sofa">4 Ways to Create Extra Space in Small Homes</a></h3>
                             </div>
                             <div class="post-meta">
                                 <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="blog-single.html">Will My Project be Unveiled to Me?</a></h3>
+                                <h3><a href="{{url('/')}}/blog/things-to-know-when-choosing-the-perfect-sofa">Will My Project be Unveiled to Me?</a></h3>
                             </div>
                             <div class="post-meta">
                                 <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
@@ -119,7 +119,7 @@
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3><a href="blog-single.html">What is the Process For Purchasing Furniture?</a></h3>
+                                <h3><a href="{{url('/')}}/blog/things-to-know-when-choosing-the-perfect-sofa">What is the Process For Purchasing Furniture?</a></h3>
                             </div>
                             <div class="post-meta">
                                 <span class="ttm-meta-line"><i class="ti ti-user ttm-textcolor-skincolor"></i>John Doe</span>
