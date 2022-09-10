@@ -33,9 +33,9 @@
 <div class="site-main">
 
     <!--welcome-section-->
-    <section class="ttm-row welcome-section clearfix">
+    <section class="ttm-row welcome-section clearfix ttm-bgcolor-white">
         <div class="container">
-            <div class="row">
+            <div class="row ttm-bgcolor-white">
                 <div class="col-lg-6 col-md-12">
                     <div class="pt-20 res-991-pt-0">
                         <!-- section title -->
