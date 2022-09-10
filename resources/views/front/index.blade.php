@@ -1052,7 +1052,7 @@
                                 </div>
                                 <ul class="social-icons square">
                                     <li>
-                                        <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook"></i>
+                                        <a class="tooltip-bottom" target="_blank" href="https://www.facebook.com/ribyedesigners" data-tooltip="Facebook"><i class="fa fa-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
@@ -1060,19 +1060,19 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i>
+                                        <a class="tooltip-bottom" target="_blank" href="https://www.linkedin.com/company/ribye-designers-limited/" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Pinterest"><i class="fa fa-pinterest"></i>
+                                        <a class="tooltip-bottom" target="_blank" href="https://www.pinterest.com/ribyedesigners" data-tooltip="Pinterest"><i class="fa fa-pinterest"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Instagram"><i class="fa fa-instagram"></i>
+                                        <a class="tooltip-bottom" target="_blank" href="https://www.instagram.com/ribyedesigners/" data-tooltip="Instagram"><i class="fa fa-instagram"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Youtube"><i class="fa fa-youtube"></i>
+                                        <a class="tooltip-bottom" target="_blank" href="https://www.youtube.com/channel/UCZ17kwbtJbV0pa_oVXd_aEQ" data-tooltip="Youtube"><i class="fa fa-youtube"></i>
                                         </a>
                                     </li>
                                 </ul>

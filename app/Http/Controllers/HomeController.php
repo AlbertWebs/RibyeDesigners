@@ -52,7 +52,8 @@ class HomeController extends Controller
             JsonLd::setDescription('interior Designer in Uganda');
             JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
             $title= "About Us";
-            return view('front.center_of_excellence', compact('title'));
+            $Service = DB::table('services')->get();
+            return view('front.center_of_excellences', compact('title','Service'));
 
     }
 
