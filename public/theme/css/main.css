@@ -2633,3 +2633,14 @@ section.error-404 .page-content p{
         color:#32415C !important;
         font-weight:900 !important;
     }
+
+    /* Extras */
+    .extra-image-left{
+        float: left;  width:50%; padding:20px;
+    }
+
+    .extra-image-right{
+        float: right;  width:50%; padding:20px;
+    }
+
+

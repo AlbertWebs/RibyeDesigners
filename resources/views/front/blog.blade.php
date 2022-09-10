@@ -59,9 +59,10 @@
                                 <div class="entry-content">
                                     <div class="ttm-box-desc-text">
                                         <p>{!! html_entity_decode($blog->content, ENT_QUOTES, 'UTF-8') !!}</p>
-                                        <blockquote>
-                                            <p>{!! html_entity_decode($blog->blockquote, ENT_QUOTES, 'UTF-8') !!}</p>
-                                        </blockquote>
+                                        <hr>
+                                        @if($blog->content_extra == null)
+
+                                        @else
                                         <div class="mt-15 mb-25">
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -74,6 +75,107 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        @endif
+                                        <blockquote>
+                                            <p>{!! html_entity_decode($blog->blockquote, ENT_QUOTES, 'UTF-8') !!}</p>
+                                        </blockquote>
+                                        {{--  --}}
+                                        @if($blog->content_one == null)
+
+                                        @else
+                                        <hr>
+                                        <div class="mt-15 mb-25">
+                                            <div class="row">
+                                                <div class="col-md-6 pl-5 res-991-pl-15">
+                                                    {!! html_entity_decode($blog->content_one, ENT_QUOTES, 'UTF-8') !!}
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="ttm_single_image-wrapper res-767-pb-30">
+                                                        <img width="420" height="240" class="img-fluid" src="{{url('/')}}/uploads/blog/{{$blog->image_one}}" alt="single_image-12">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        @endif
+                                        {{--  --}}
+                                        {{--  --}}
+                                        @if($blog->content_two == null)
+
+                                        @else
+                                        <hr>
+                                        <div class="mt-15 mb-25">
+                                            <div class="row">
+
+                                                <div class="col-md-6">
+                                                    <div class="ttm_single_image-wrapper res-767-pb-30">
+                                                        <img width="420" height="240" class="img-fluid" src="{{url('/')}}/uploads/blog/{{$blog->image_two}}" alt="single_image-12">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 pl-5 res-991-pl-15">
+                                                    <p>{!! html_entity_decode($blog->content_two, ENT_QUOTES, 'UTF-8') !!}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        @endif
+                                        {{--  --}}
+                                        {{--  --}}
+                                        @if($blog->content_three == null)
+
+                                        @else
+                                        <hr>
+                                        <div class="mt-15 mb-25">
+                                            <div class="row">
+                                                <div class="col-md-6 pl-5 res-991-pl-15">
+                                                    {!! html_entity_decode($blog->content_three, ENT_QUOTES, 'UTF-8') !!}
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="ttm_single_image-wrapper res-767-pb-30">
+                                                        <img width="420" height="240" class="img-fluid" src="{{url('/')}}/uploads/blog/{{$blog->image_three}}" alt="single_image-12">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        @endif
+                                        {{--  --}}
+                                        {{--  --}}
+                                        @if($blog->content_four == null)
+
+                                        @else
+
+                                        <hr>
+                                        <div class="mt-15 mb-25">
+                                            <div class="row">
+                                                <div style="border-bottom: solid 1px silver; overflow: hidden;">
+                                                    <img src="{{url('/')}}/uploads/blog/{{$blog->image_four}}" class="extra-image-left">
+                                                    <div>{!! html_entity_decode($blog->content_four, ENT_QUOTES, 'UTF-8') !!}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                <hr>
+                                        @endif
+                                        {{--  --}}
+                                        {{--  --}}
+                                        @if($blog->content_five == null)
+
+                                        @else
+
+                                        <hr>
+                                        <div class="mt-15 mb-25">
+                                            <div class="row">
+                                                <div style="border-bottom: solid 1px silver; overflow: hidden;">
+                                                    <img src="{{url('/')}}/uploads/blog/{{$blog->image_five}}" class="extra-image-left">
+                                                    <div>{!! html_entity_decode($blog->content_five, ENT_QUOTES, 'UTF-8') !!}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                <hr>
+                                        @endif
+
+                                        <p><i>{!! html_entity_decode($blog->credit, ENT_QUOTES, 'UTF-8') !!}</i></p>
+                                        {{--  --}}
                                         <div class="social-media-block">
                                             <div class="d-sm-flex justify-content-between">
                                                 <div class="ttm-social-share-wrapper mt-15">
@@ -98,7 +200,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="ttm-blog-classic-box-comment clearfix">
+                                        {{-- <div class="ttm-blog-classic-box-comment clearfix">
                                             <div id="comments" class="comments-area">
                                                 <div class="comment-respond">
                                                     <h2 class="comment-reply-title">Leave a Reply</h2>
@@ -126,7 +228,7 @@
                                                 </form>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div><!-- ttm-blog-classic-content end -->

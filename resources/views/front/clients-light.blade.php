@@ -1,0 +1,57 @@
+    <!--client-section-->
+    <div class="ttm-row client-section mt_115 res-991-mt-45 ttm-bgcolor-grey clearfix">
+        <div class="container">
+            <!-- row -->
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <!-- slick_slider -->
+                    <div class="row slick_slider" data-slick='{"slidesToShow": 5, "slidesToScroll": 1, "arrows":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 5}}, {"breakpoint":1024,"settings":{"slidesToShow": 4}}, {"breakpoint":777,"settings":{"slidesToShow": 3}}, {"breakpoint":575,"settings":{"slidesToShow": 2}}]}'>
+                        <div class="col-lg-12">
+                            <div class="client-box">
+                                <div class="client-thumbnail">
+                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-01.png')}}" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="client-box">
+                                <div class="client-thumbnail">
+                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-02.png')}}" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="client-box">
+                                <div class="client-thumbnail">
+                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-03.png')}}" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="client-box">
+                                <div class="client-thumbnail">
+                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-04.png')}}" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="client-box">
+                                <div class="client-thumbnail">
+                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-05.png')}}" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="client-box">
+                                <div class="client-thumbnail">
+                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-01.png')}}" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- ttm-client end -->
+                </div>
+            </div><!-- row end -->
+        </div>
+    </div>
+    <!--client-section-->
+
