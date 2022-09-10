@@ -203,6 +203,9 @@
                                     <li class="social-pinterest">
                                         <a class="tooltip-top" target="_blank" href="#" data-tooltip="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                     </li>
+                                    <li class="social-pinterest">
+                                        <a class="tooltip-top" target="_blank" href="#" data-tooltip="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                    </li>
                                 </ul>
                             </div>
                         </aside>
@@ -212,8 +215,8 @@
                                     <div class="ttm-col-wrapper-bg-layer-inner"></div>
                                 </div>
                                 <div class="layer-content">
-                                    <h3 class="widget-title">Follow Us</h3>
-                                    <div class="widget-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    <h3 class="widget-title">Quick Contact</h3>
+                                    <div class="widget-text">Our impact is measured not just in the quality of the project delivered but in the longer-term impact on the environment, communities and people.
                                         <div class="ttm-quicklink-box">
                                         <div class="ttm-lefticon-box">
                                                 <i class="fa fa fa-headphones"></i>
@@ -230,38 +233,15 @@
                         <aside class="widget widget-archive">
                             <h3 class="widget-title">Gallery</h3>
                             <div id="gallery-2" class="gallery-wrapper">
+                                <?php $Portfolio = DB::table('portfolios')->get(); ?>
+                                @foreach ($Portfolio as $item)
                                 <figure class="gallery-item">
                                     <div class="gallery-icon landscape">
-                                        <a class="ttm_prettyphoto" href="{{asset('theme/images/portfolio/project-1-1200x800.jpg')}}" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
-                                        <img width="150" height="150" class="img-fluid" src="{{asset('theme/images/portfolio/project-1-150x150.jpg')}}" alt="gellary_img"></a>
+                                        <a class="ttm_prettyphoto" href="{{url('/')}}/uploads/portfolios/{{$item->image}}" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
+                                        <img width="150" height="150" class="img-fluid" src="{{url('/')}}/uploads/portfolios/{{$item->image}}" alt="gellary_img"></a>
                                     </div>
                                 </figure>
-                                <figure class="gallery-item">
-                                    <div class="gallery-icon landscape">
-                                        <a class="ttm_prettyphoto" href="{{asset('theme/images/portfolio/project-2-1200x800.jpg')}}" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
-                                        <img width="150" height="150" class="img-fluid" src="{{asset('theme/images/portfolio/project-2-150x150.jpg')}}" alt="gellary_img"></a>
-                                    </div>
-                                </figure>
-                                <figure class="gallery-item">
-                                    <div class="gallery-icon landscape">
-                                        <a class="ttm_prettyphoto" href="{{asset('theme/images/portfolio/project-3-1200x800.jpg')}}" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto"><img width="150" height="150" class="img-fluid" src="{{asset('theme/images/portfolio/project-3-150x150.jpg')}}" alt="gellary_img"></a>
-                                    </div>
-                                </figure>
-                                <figure class="gallery-item">
-                                    <div class="gallery-icon landscape">
-                                        <a class="ttm_prettyphoto" href="{{asset('theme/images/portfolio/project-4-1200x800.jpg')}}" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto"><img width="150" height="150" class="img-fluid" src="{{asset('theme/images/portfolio/project-4-150x150.jpg')}}" alt="gellary_img"></a>
-                                    </div>
-                                </figure>
-                                <figure class="gallery-item">
-                                    <div class="gallery-icon landscape">
-                                        <a class="ttm_prettyphoto" href="{{asset('theme/images/portfolio/project-5-1200x800.jpg')}}" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto"><img width="150" height="150" class="img-fluid" src="{{asset('theme/images/portfolio/project-5-150x150.jpg')}}" alt="gellary_img"></a>
-                                    </div>
-                                </figure>
-                                <figure class="gallery-item">
-                                    <div class="gallery-icon landscape">
-                                        <a class="ttm_prettyphoto" href="{{asset('theme/images/portfolio/project-6-1200x800.jpg')}}" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto"><img width="150" height="150" class="img-fluid" src="{{asset('theme/images/portfolio/project-6-150x150.jpg')}}" alt="gellary_img"></a>
-                                    </div>
-                                </figure>
+                                @endforeach
                             </div>
                         </aside>
                     </div>

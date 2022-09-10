@@ -739,7 +739,7 @@
                                                 <!-- featured-icon-box -->
                                                 <div class="featured-imagebox featured-imagebox-services style1">
                                                     <div class="featured-thumbnail">
-                                                        <img src="{{asset('theme/images/services/service-03-260x260.jpg')}}" class="img-fluid" alt="services-1">
+                                                        <img src="{{url('/')}}/uploads/banners/pexels-cyton.jpg" class="img-fluid" alt="services-1">
                                                     </div>
                                                     <div class="featured-content">
                                                         <div class="featured-title">
@@ -934,122 +934,36 @@
                 </div>
             </div><!-- row end -->
             <!-- row -->
-            <div class="row slick_slider mr_450 res-991-mr-0 mt-20 res-991-mt-0" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "autoplay":false, "dots":false, "infinite":true, "responsive":[{"breakpoint":1199,"settings": {"slidesToShow": 3}}, {"breakpoint":992,"settings":{"slidesToShow": 2}},{"breakpoint":620,"settings":{"slidesToShow": 1}}]}'>
+            <div class="row slick_slider mr_450 res-991-mr-0 mt-20 res-991-mt-0" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "autoplay":true, "dots":false, "infinite":true, "responsive":[{"breakpoint":1199,"settings": {"slidesToShow": 3}}, {"breakpoint":992,"settings":{"slidesToShow": 2}},{"breakpoint":620,"settings":{"slidesToShow": 1}}]}'>
+
+                <?php $Portfolio = DB::table('portfolios')->get(); ?>
+                @foreach ($Portfolio as $item)
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <!-- featured-imagebox-portfolio -->
                     <div class="featured-imagebox featured-imagebox-portfolio style3">
                         <!-- featured-thumbnail -->
                         <div class="featured-thumbnail">
-                            <img width="610" height="750" class="img-fluid" src="{{asset('theme/images/portfolio/portfolio-01-610x750.jpg')}}" alt="image">
+                            <img width="610" height="750" class="img-fluid" src="{{url('/')}}/uploads/portfolios/{{$item->image}}" alt="{{$item->title}}">
                         </div>
                         <!-- featured-thumbnail end-->
                         <div class="featured-content-inner">
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="project-single.html">Modern Kitchen</a></h3>
+                                    <h3><a href="{{url('/')}}/portfolio/{{$item->slung}}">{{$item->title}}</a></h3>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>The style of the interior was defined as modern in light colors. Main materials used in project are wallpaper etc.</p>
+                                    <p>{{$item->meta}}</p>
                                 </div>
                             </div>
                             <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-dark" href="project-single.html">Read More<i class="ti ti-plus"></i></a>
+                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-dark" href="{{url('/')}}/portfolio/{{$item->slung}}">Read More<i class="ti ti-plus"></i></a>
                             </div>
                         </div>
                     </div><!-- featured-imagebox-portfolio end-->
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <!-- featured-imagebox-portfolio -->
-                    <div class="featured-imagebox featured-imagebox-portfolio style3">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img width="610" height="750" class="img-fluid" src="{{asset('theme/images/portfolio/portfolio-02-610x750.jpg')}}" alt="image">
-                        </div>
-                        <!-- featured-thumbnail end-->
-                        <div class="featured-content-inner">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="project-single.html">Interior Work</a></h3>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>The entire interior is the beginning of the history of the house, such as colors, lighting, and materials.</p>
-                                </div>
-                            </div>
-                            <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-dark" href="project-single.html">Read More<i class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-portfolio end-->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <!-- featured-imagebox-portfolio -->
-                    <div class="featured-imagebox featured-imagebox-portfolio style3">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img width="610" height="750" class="img-fluid" src="{{asset('theme/images/portfolio/portfolio-03-610x750.jpg')}}" alt="image">
-                        </div>
-                        <!-- featured-thumbnail end-->
-                        <div class="featured-content-inner">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="project-single.html">Prestige Villa</a></h3>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Prestige villa exterior design thought and decided that in such a case it would be wise to use porcelain stoneware.</p>
-                                </div>
-                            </div>
-                            <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-dark" href="project-single.html">Read More<i class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-portfolio end-->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <!-- featured-imagebox-portfolio -->
-                    <div class="featured-imagebox featured-imagebox-portfolio style3">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img width="610" height="750" class="img-fluid" src="{{asset('theme/images/portfolio/portfolio-04-610x750.jpg')}}" alt="image">
-                        </div>
-                        <!-- featured-thumbnail end-->
-                        <div class="featured-content-inner">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="project-single.html">IBM Head Office</a></h3>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>They greatly expanded the space, helped straighten the geometry and added light to the interior in Upscale sales office.</p>
-                                </div>
-                            </div>
-                            <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-dark" href="project-single.html">Read More<i class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-portfolio end-->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <!-- featured-imagebox-portfolio -->
-                    <div class="featured-imagebox featured-imagebox-portfolio style3">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img width="610" height="750" class="img-fluid" src="{{asset('theme/images/portfolio/portfolio-05-610x750.jpg')}}" alt="image">
-                        </div>
-                        <!-- featured-thumbnail end-->
-                        <div class="featured-content-inner">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="project-single.html">Hall Theater Building</a></h3>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Theater and concert hall design is both artistically and functionally complex. As in all architectural design.</p>
-                                </div>
-                            </div>
-                            <div class="ttm-footer">
-                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-dark" href="project-single.html">Read More<i class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-portfolio end-->
-                </div>
+                @endforeach
+
+
             </div><!-- row end -->
         </div>
     </section>
