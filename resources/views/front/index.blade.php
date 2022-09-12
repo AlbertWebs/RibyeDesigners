@@ -76,7 +76,7 @@
                         data-frame_1="st:440;sp:900;sR:440;"
                         data-frame_999="o:0;st:w;sR:7660;"
                         style="z-index:11;font-family:Cerebri Sans;"
-                    >More Beautiful
+                    >Your Office
                     </rs-layer>
 
                     <a
@@ -122,7 +122,7 @@
                         data-frame_1="y:-1px,-1px,0px,0px;e:power2.inOut;st:930;sp:400;sR:930;"
                         data-frame_999="o:0;st:w;sR:7670;"
                         style="z-index:16;font-family:Cerebri Sans;"
-                    >Project Done
+                    >Watch Video
                     </rs-layer>
 
                     <rs-layer
@@ -144,7 +144,7 @@
                     <a
                         id="slider-1-slide-1-layer-8"
                         class="rs-layer ttm_prettyphoto"
-                        href="https://youtu.be/1cv5SwSXYAw" target="_self"
+                        href="https://youtu.be/64Iq4Y4lFSc" target="_self"
                         data-type="text"
                         data-color="#32415C"
                         data-rsp_ch="on"
@@ -171,7 +171,7 @@
                         data-frame_1="st:250;sp:900;sR:250;"
                         data-frame_999="o:0;st:w;sR:7850;"
                         style="z-index:10;font-family:Cerebri Sans;"
-                    >Making Your Home
+                    >Bring Elegance To
                     </rs-layer>
 
                     <rs-layer
@@ -289,7 +289,7 @@
                         data-frame_1="st:440;sp:900;sR:440;"
                         data-frame_999="o:0;st:w;sR:7660;"
                         style="z-index:10;font-family:Cerebri Sans;"
-                    >Your Home Interiors
+                    >Your Office Interiors
                     </rs-layer>
 
                     <a
@@ -321,7 +321,7 @@
                         data-frame_1="e:power2.inOut;st:890;sp:500;sR:890;"
                         data-frame_999="o:0;st:w;sR:7610;"
                         style="z-index:14;font-family:Cerebri Sans;"
-                    >670+
+                    >30+
                     </rs-layer>
 
                     <rs-layer
@@ -443,7 +443,7 @@
                         data-frame_1="st:690;sp:500;sR:690;"
                         data-frame_999="o:0;st:w;sR:7810;"
                         style="z-index:23;font-family:Cerebri Sans;"
-                    >10 Years Warranty
+                    >10 Years Experience
                     </rs-layer>
 
                     <rs-layer
@@ -470,7 +470,7 @@
                         data-frame_1="st:690;sp:500;sR:690;"
                         data-frame_999="o:0;st:w;sR:7810;"
                         style="z-index:22;font-family:Cerebri Sans;"
-                    >Easy EMI
+                    >Office Fit-Outs
                     </rs-layer>
 
                     <rs-layer
@@ -497,7 +497,7 @@
                         data-frame_1="st:690;sp:500;sR:690;"
                         data-frame_999="o:0;st:w;sR:7810;"
                         style="z-index:21;font-family:Cerebri Sans;"
-                    >10 Years Warranty
+                    >Interior Design
                     </rs-layer>
 
                 </rs-slide>
@@ -919,7 +919,7 @@
 
 
     <!--bottom_zero_padding-section-->
-    <section id="portfolio" class="ttm-row bottom_zero_padding-section clearfix">
+    <section id="portfolio" class="ttm-row bottom_zero_padding-section clearfix ttm-bgcolor-grey">
         <div class="container">
             <!-- row -->
             <div class="row">
@@ -971,60 +971,7 @@
 
 
     <!--client-section-->
-    <div class="ttm-row client-section mt_115 res-991-mt-45 ttm-bgcolor-grey clearfix">
-        <div class="container">
-            <!-- row -->
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <!-- slick_slider -->
-                    <div class="row slick_slider" data-slick='{"slidesToShow": 5, "slidesToScroll": 1, "arrows":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 5}}, {"breakpoint":1024,"settings":{"slidesToShow": 4}}, {"breakpoint":777,"settings":{"slidesToShow": 3}}, {"breakpoint":575,"settings":{"slidesToShow": 2}}]}'>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-01.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-02.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-03.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-04.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-05.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-01.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- ttm-client end -->
-                </div>
-            </div><!-- row end -->
-        </div>
-    </div>
+    @include('front.clients-light')
     <!--client-section-->
 
 
