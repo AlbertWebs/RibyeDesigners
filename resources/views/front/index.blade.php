@@ -985,7 +985,7 @@
                         <div class="layer-content ttm-bgcolor-white">
                             <div class="col-bg-img-four ttm-bg ttm-col-bgimage-yes text-center border spacing-6">
                                 <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
-                                <h2 class="font-size-34 mb-10">Emergency Interiors Services</h2>
+                                <h2 class="font-size-34 mb-10">Ribye Interiors Limited</h2>
                                 <p>Do not hesitate to send us a message. We are looking forward to hearing from you.</p>
                                 <div class="d-flex flex-row align-items-center justify-content-center mb-10 mt-10">
                                     <div class="widget_icon">
@@ -1035,7 +1035,7 @@
                             <!-- section title -->
                             <div class="section-title">
                                 <div class="title-header">
-                                    <h2 class="title">Send Your Message To Us</h2>
+                                    <h2 class="title">Send Your Message</h2>
                                 </div>
                             </div><!-- section title end -->
                             <div class="padding_top30">

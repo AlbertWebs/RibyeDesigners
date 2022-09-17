@@ -291,22 +291,22 @@
                             <div class="ttm-social-share-links">
                                 <ul class="social-icons square">
                                     <li class="social-facebook">
-                                        <a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a class="tooltip-top" target="_blank" href="https://www.facebook.com/ribyedesigners" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                     </li>
                                     <li class="social-twitter">
                                         <a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                     </li>
                                     <li class="social-linkedin">
-                                        <a class="tooltip-top" target="_blank" href="#" data-tooltip="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a class="tooltip-top" target="_blank" href="https://www.linkedin.com/company/ribye-designers-limited/" data-tooltip="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                     </li>
                                     <li class="social-pinterest">
-                                        <a class="tooltip-top" target="_blank" href="#" data-tooltip="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                        <a class="tooltip-top" target="_blank" href="https://www.pinterest.com/ribyedesigners" data-tooltip="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                                     </li>
                                     <li class="social-pinterest">
-                                        <a class="tooltip-top" target="_blank" href="#" data-tooltip="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a class="tooltip-top" target="_blank" href="https://www.instagram.com/ribyedesigners/" data-tooltip="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                     </li>
                                     <li class="social-pinterest">
-                                        <a class="tooltip-top" target="_blank" href="#" data-tooltip="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                        <a class="tooltip-top" target="_blank" href="https://www.youtube.com/channel/UCZ17kwbtJbV0pa_oVXd_aEQ" data-tooltip="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                                     </li>
                                 </ul>
                             </div>
