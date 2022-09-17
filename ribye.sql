@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Sep 10, 2022 at 07:11 PM
+-- Generation Time: Sep 17, 2022 at 09:10 PM
 -- Server version: 8.0.30-0ubuntu0.22.04.1
 -- PHP Version: 8.1.2
 
@@ -84,6 +84,74 @@ INSERT INTO `categories` (`id`, `title`, `slung`, `image`, `created_at`, `update
 (2, 'Door Windows', 'door-windows', '', NULL, NULL),
 (3, 'Home Land', 'home-land', '', NULL, NULL),
 (4, 'Roof Installation', 'roof-installation', '', NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `clients`
+--
+
+CREATE TABLE `clients` (
+  `id` int UNSIGNED NOT NULL,
+  `name` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `orders` int DEFAULT '10',
+  `image` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `clients`
+--
+
+INSERT INTO `clients` (`id`, `name`, `orders`, `image`, `created_at`, `updated_at`) VALUES
+(5, 'Jade Collection', 10, '2019-09-2915:14:51imageJADE-COLLECTIONS.png', '2019-01-17 02:57:52', '2019-01-17 02:57:52'),
+(6, 'Safeway Hypermarket', 10, '2019-09-2915:15:06imageSAFEWAY-SUPERMARKETS.png', '2019-01-17 12:33:37', '2019-01-17 12:33:37'),
+(7, 'Open Capital Advisors', 10, '2019-09-2915:15:29imageOPEN-CAPITAL-ADVISORS.png', '2019-01-17 12:34:37', '2019-01-17 12:34:37'),
+(8, 'Bollore Transport & Logistics Kenya LTD', 10, '2019-09-2915:15:48imageBOLOROLE-LOGISTICS.png', '2019-01-17 12:35:23', '2019-01-17 12:35:23'),
+(9, 'First Cargo Logistics', 10, '2019-09-2915:16:01imageFIRST-LOGISTICS.png', '2019-01-17 12:36:27', '2019-01-17 12:36:27'),
+(10, 'IDLO-International Development Law', 10, '2019-09-2915:16:18imageIDLO.png', '2019-01-17 12:36:54', '2019-01-17 12:36:54'),
+(12, 'Selex Es Technologies', 10, '2019-09-2915:16:35imageSELEX-ES.png', '2019-01-17 12:37:55', '2019-01-17 12:37:55'),
+(14, 'PJ Kakad', 10, '2019-09-2915:16:59imageP-KAKAD-ADVOCATES.png', '2019-01-17 12:42:17', '2019-01-17 12:42:17'),
+(16, 'Westside Towers', 10, '2019-09-2915:17:19imageWESTSIDE-APARTMENTS.png', '2019-02-14 12:05:20', '2019-02-14 12:05:20'),
+(17, 'Credit Bank Limited', 3, '2019-09-2915:59:00imageCredit-Bank-Logo.png', '2019-09-29 12:59:00', '2019-09-29 12:59:00'),
+(18, 'leonardo', 10, '2021-04-2108:08:21image1.png', '2021-04-21 05:08:21', '2021-04-21 05:08:21'),
+(19, 'Sub Way', 6, '2022-01-2214:44:26imagephoto_2022-01-22_12-14-19(2).jpg', '2021-04-21 05:08:48', '2021-04-21 05:08:48'),
+(20, 'NegusMed LTD', 10, '2021-04-2108:09:36image5.png', '2021-04-21 05:09:36', '2021-04-21 05:09:36'),
+(21, 'Safeway', 10, '2021-04-2108:10:11image8.png', '2021-04-21 05:10:11', '2021-04-21 05:10:11'),
+(22, 'Africa Ceramics', 10, '2021-04-2108:11:20image9.png', '2021-04-21 05:11:20', '2021-04-21 05:11:20'),
+(23, 'SBA  Group', 8, '2021-04-2206:56:10image10.png', '2021-04-22 03:56:10', '2021-04-22 03:56:10'),
+(24, 'PayTech ', 10, '2021-04-2206:57:34image19.png', '2021-04-22 03:57:35', '2021-04-22 03:57:35'),
+(25, 'Liberty eagle', 10, '2021-04-2206:58:35image17.png', '2021-04-22 03:58:35', '2021-04-22 03:58:35'),
+(26, 'Shofco ', 10, '2021-04-2206:59:39image13.png', '2021-04-22 03:59:39', '2021-04-22 03:59:39'),
+(27, 'Bectel ', 10, '2021-04-2207:00:33image20.png', '2021-04-22 04:00:33', '2021-04-22 04:00:33'),
+(28, 'Global Star ', 10, '2021-04-2207:01:14image21.png', '2021-04-22 04:01:14', '2021-04-22 04:01:14'),
+(29, 'Abno Software International ', 10, '2021-04-2207:04:06image11.png', '2021-04-22 04:04:06', '2021-04-22 04:04:06'),
+(30, 'Valar', 7, '2022-01-2214:45:47imagephoto_2022-01-22_12-13-08(2).jpg', '2021-04-22 04:04:38', '2021-04-22 04:04:38'),
+(31, 'Engineering ', 10, '2021-04-2207:06:49image15.png', '2021-04-22 04:06:49', '2021-04-22 04:06:49'),
+(32, 'Africa Flashmc Tours and Travel ', 10, '2021-04-2207:08:23image16.png', '2021-04-22 04:08:23', '2021-04-22 04:08:23'),
+(33, 'World Animal Protection ', 10, '2021-04-2207:10:10image23.png', '2021-04-22 04:10:10', '2021-04-22 04:10:10'),
+(35, 'Centric ', 10, '2021-04-2207:10:48image22.png', '2021-04-22 04:10:48', '2021-04-22 04:10:48'),
+(36, 'HTG ', 10, '2021-04-2207:11:46image24.png', '2021-04-22 04:11:46', '2021-04-22 04:11:46'),
+(37, 'Intrarget ', 10, '2021-04-2207:12:38image27.png', '2021-04-22 04:12:38', '2021-04-22 04:12:38'),
+(38, 'Finton Logistics ', 10, '2021-04-2207:14:09image25.png', '2021-04-22 04:14:09', '2021-04-22 04:14:09'),
+(39, 'Shelter Afrique ', 10, '2021-04-2207:15:20image28.png', '2021-04-22 04:15:20', '2021-04-22 04:15:20'),
+(40, 'Fact ', 10, '2021-04-2207:16:08image26.png', '2021-04-22 04:16:08', '2021-04-22 04:16:08'),
+(41, 'Prodrivers', 10, '2021-04-2207:16:43image29.png', '2021-04-22 04:16:43', '2021-04-22 04:16:43'),
+(42, 'GT Bank', 1, '2022-01-2214:38:43imagephoto_2022-01-22_12-13-00.jpg', '2022-01-21 07:07:50', '2022-01-21 07:07:50'),
+(43, 'STIHL East Africa Ltd', 2, '2022-01-2214:40:04imagephoto_2022-01-22_12-13-09.jpg', '2022-01-21 07:13:04', '2022-01-21 07:13:04'),
+(44, 'IGAD', 3, '2022-01-2214:41:18imagephoto_2022-01-22_12-34-38.jpg', '2022-01-21 07:17:59', '2022-01-21 07:17:59'),
+(45, 'National Olympic committee', 4, '2022-01-2214:42:49imagephoto_2022-01-22_12-24-34.jpg', '2022-01-21 07:20:12', '2022-01-21 07:20:12'),
+(46, 'Yves Rocher', 5, '2022-01-2214:43:47imagephoto_2022-01-22_12-13-10(2).jpg', '2022-01-21 07:22:20', '2022-01-21 07:22:20'),
+(47, 'Intra health', 10, '2022-01-2215:06:03imagephoto_2022-01-22_12-09-31.jpg', '2022-01-22 12:04:22', '2022-01-22 12:04:22'),
+(48, 'Alkar', 10, '2022-01-2215:07:53imagephoto_2022-01-22_12-13-02.jpg', '2022-01-22 12:07:53', '2022-01-22 12:07:53'),
+(49, 'Shofco', 10, '2022-01-2215:08:33imagephoto_2022-01-22_12-13-05.jpg', '2022-01-22 12:08:33', '2022-01-22 12:08:33'),
+(50, 'Negus Med', 10, '2022-01-2215:09:44imagephoto_2022-01-22_12-13-06.jpg', '2022-01-22 12:09:44', '2022-01-22 12:09:44'),
+(51, 'Resolution Insurance', 9, '2022-01-2215:10:33imagephoto_2022-01-22_12-13-06(2).jpg', '2022-01-22 12:10:33', '2022-01-22 12:10:33'),
+(52, 'MicroSave Consulting', 9, '2022-01-2215:11:27imagephoto_2022-01-22_12-13-09(2).jpg', '2022-01-22 12:11:27', '2022-01-22 12:11:27'),
+(53, 'Medecins Sans Frontiers', 9, '2022-01-2215:12:20imagephoto_2022-01-22_12-13-10.jpg', '2022-01-22 12:12:20', '2022-01-22 12:12:20'),
+(54, 'Kiptinness & Odhiambo Associates', 10, '2022-01-2215:13:33imagephoto_2022-01-22_12-13-11.jpg', '2022-01-22 12:13:33', '2022-01-22 12:13:33'),
+(55, 'Heva Enterprises', 10, '2022-01-2215:15:04imagephoto_2022-01-22_12-14-19.jpg', '2022-01-22 12:15:04', '2022-01-22 12:15:04');
 
 -- --------------------------------------------------------
 
@@ -255,6 +323,12 @@ ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `clients`
+--
+ALTER TABLE `clients`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `failed_jobs`
 --
 ALTER TABLE `failed_jobs`
@@ -315,6 +389,12 @@ ALTER TABLE `blogs`
 --
 ALTER TABLE `categories`
   MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `clients`
+--
+ALTER TABLE `clients`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
