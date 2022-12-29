@@ -50,8 +50,8 @@
                                 <h3>Phone Number</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>+255 7 456 7890</p>
-                                <p>+255 7 998 4567</p>
+                                <p>+254 723 768 593</p>
+                                <p>+254 723 768 593</p>
                             </div>
                         </div>
                     </div>

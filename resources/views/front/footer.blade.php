@@ -14,7 +14,7 @@
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <h3>+255 456 78910 / 11</h3>
+                                        <h3>+254 723 768 593</h3>
                                         <p>Have a question? call us now</p>
                                     </div>
                                 </div>
