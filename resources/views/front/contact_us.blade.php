@@ -203,10 +203,12 @@
 <div id="google_map" class="google_map">
     <div class="map_container">
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.33158202457!2d36.7996562!3d-1.2734496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe07bbf266ae12aee!2sCreation%20Office%20Fitouts!5e0!3m2!1sen!2ske!4v1662463739010!5m2!1sen!2ske"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.33158202457!2d36.7996562!3d-1.2734496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe07bbf266ae12aee!2sCreation%20Office%20Fitouts!5e0!3m2!1sen!2ske!4v1662463739010!5m2!1sen!2ske"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127672.28080335777!2d32.5991254!3d0.3130294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7337658f0ed3e61%3A0xdf53e8bec551170d!2sRibye%20Designers!5e0!3m2!1sen!2ske!4v1674630952940!5m2!1sen!2ske" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </div>
+
 
 
 
